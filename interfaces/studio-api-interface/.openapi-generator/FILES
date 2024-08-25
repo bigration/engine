@@ -45,10 +45,12 @@ src/models/ChatCompletionMessageParam.ts
 src/models/ConditionalPathAction.ts
 src/models/DataManipulation.ts
 src/models/DatabaseAction.ts
+src/models/Edge.ts
 src/models/EditProjectDTO.ts
 src/models/EncryptedValue.ts
 src/models/EngineConnectionStatus.ts
 src/models/EngineDeploymentDTO.ts
+src/models/EngineEventMessage.ts
 src/models/EngineQuota.ts
 src/models/EngineRestartDTO.ts
 src/models/Expression.ts
@@ -64,13 +66,13 @@ src/models/GlobalVariablesAction.ts
 src/models/IcalAttachment.ts
 src/models/InputParameter.ts
 src/models/InstanceActionModel.ts
-src/models/InstanceActionUpdateWebsocketDTO.ts
+src/models/InstanceActionUpdateDTO.ts
 src/models/InstanceBaseDTO.ts
 src/models/InstanceEngineMessageDTO.ts
 src/models/InstanceLogModel.ts
 src/models/InstanceModel.ts
 src/models/InstanceTreeDTO.ts
-src/models/InstanceUpdateWebsocketDTO.ts
+src/models/InstanceUpdateDTO.ts
 src/models/IntegrationBaseDTO.ts
 src/models/IntegrationEditDTO.ts
 src/models/IntegrationMailConfig.ts
@@ -86,6 +88,8 @@ src/models/MailAction.ts
 src/models/MailConfigurationOptions.ts
 src/models/Manipulator.ts
 src/models/MultiConditionalPathAction.ts
+src/models/NodeLLM.ts
+src/models/NodeTool.ts
 src/models/NotificationModel.ts
 src/models/OAuth1Auth.ts
 src/models/OAuth2Auth.ts
